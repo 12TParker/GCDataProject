@@ -1,0 +1,85 @@
+==================================================================
+Human Activity Recognition Using Smartphones - Average Mean and Std Dev measurements by activity and subject
+==================================================================
+Original Data Source:
+Human Activity Recognition using Smartphones Dataset
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Università degli Studi di Genova.
+Via Opera Pia 11A, I-16145, Genoa, Italy.
+activityrecognition@smartlab.ws
+www.smartlab.ws
+==================================================================
+
+For each record it is provided:
+======================================
+(see details of each below)
+- An activity label. 
+- An identifier of the subject who carried out the experiment.
+- A 66-feature vector with average time and frequency domain variables for each activity and each subject
+
+
+Activities:
+=====================================
+Each record is labeled with the activity performed for the observation. There are six possible values:
+
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+Subject:
+====================================
+Each record is labeled with the subject for whom the observation was made. Possible values are from 1 to 30
+
+Feature Vector:
+======================================
+(Documentation from the original data source)
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+The set of variables contained in this dataset are the average of each feature variable for each activity and each subject: 
+
+AVG:tBodyAcc:mean:XYZ
+AVG:tBodyAcc:std:XYZ
+AVG:tGravityAcc:mean:XYZ
+AVG:tGravityAcc:std:XYZ
+AVG:tBodyAccJerk:mean:XYZ
+AVG:tBodyAccJerk:std:XYZ
+AVG:tBodyGyro:mean:XYZ
+AVG:tBodyGyro:std:XYZ
+AVG:tBodyGyroJerk:mean:XYZ
+AVG:tBodyGyroJerk:std:XYZ
+AVG:tBodyAccMag:mean
+AVG:tBodyAccMag:std
+AVG:tGravityAccMag:mean
+AVG:tGravityAccMag:std
+AVG:tBodyAccJerkMag:mean
+AVG:tBodyAccJerkMag:std
+AVG:tBodyGyroMag:mean
+AVG:tBodyGyroMag:std
+AVG:tBodyGyroJerkMag:mean
+AVG:tBodyGyroJerkMag:std
+AVG:fBodyAcc:mean:XYZ
+AVG:fBodyAcc:std:XYZ
+AVG:fBodyGyro:mean:XYZ
+AVG:fBodyGyro:std:XYZ
+AVG:fBodyAccJerk:mean:XYZ
+AVG:fBodyAccJerk:std:XYZ
+AVG:fBodyAccMag:mean
+AVG:fBodyAccMag:std
+AVG:fBodyAccJerkMag:mean
+AVG:fBodyAccJerkMag:std
+AVG:fBodyGyroMag:mean
+AVG:fBodyGyroMag:std
+AVG:fBodyGyroJerkMag:mean
+AVG:fBodyGyroJerkMag:std
+
